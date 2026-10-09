@@ -1,0 +1,13 @@
+[component]
+name = "neodb"
+kind = "engine"
+title = "NeoDB"
+
+[build]
+packages = ["engine"]   # PyPI: neodb-core
+
+[contracts]
+provides_types = []
+consumes_types = []
+emits = []
+depends_on = []
